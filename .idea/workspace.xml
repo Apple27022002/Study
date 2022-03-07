@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7d8edf-d754-48b9-bb91-7cd861b007f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai tap tao cv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tao bang co ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tao bang co ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/tao bang co ban.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646617718486</updated>
-      <workItem from="1646617719919" duration="7298000" />
+      <workItem from="1646617719919" duration="7692000" />
     </task>
     <servers />
   </component>
