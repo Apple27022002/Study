@@ -39,13 +39,99 @@
     // }
 
 
+    // Bài tập biến kiểu dữ liệu và toán tử
+    // Baif tập điểm trung bình
+
+
+    // let diemvatly;
+    // let diemhoahoc;
+    // let diemsinhhoc;
+    // diemvatly =+prompt('Nhập điểm vật lý: ');
+    // diemhoahoc =+prompt('Nhập điểm hóa học: ');
+    // diemsinhhoc =+prompt('Nhập điểm sinh học: ');
+    // let diemtrungbinh = (diemvatly + diemhoahoc + diemsinhhoc)/3;
+    // document.write('diemtrungbinh la: ' + diemtrungbinh)
+
+
+    // Bài chuyển nhiệt độ
+
+    // let nhietdoC;
+    // nhietdoC =+prompt('Nhập nhiệt độ: ');
+    // let nhietdoF;
+    // nhietdoF = (nhietdoC*1.8)+32;
+    // document.write('Nhiệt độ c chuyển qua f là: ' + nhietdoF)
+
+
+    // Chương trình tính diện tích hình tròn
+
+    // let bankinh;
+    // bankinh =+prompt('Nhap ban kinh vao day: ');
+    // let dientich
+    // dientich =bankinh**2 *3.14;
+    // document.write('dien tich hinh tron la : ' +dientich)
+
+
+    // Chuong trinh tinh chu vi hinh tron
+
+
+    // let bankinh;
+    // bankinh =+prompt('nhap vao ban kinh : ');
+    // let chuvi;
+    // chuvi = bankinh*2 *3.14;
+    // document.write('Chu vi hinh tron la : ' + chuvi)
 
 
 
 
-
-
+    // May tinh
+    
+    
 </script>
-
+<table >
+    <tr>
+    <th>Caculator</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" id="a">
+        </td>
+        <td>
+            <input type="text" id="b">
+        </td>
+    </tr>
+    <tr>
+        <td><button id="cong()" onclick="cong()">Addition</button></td>
+        <td><button id="tru()" onclick="tru()">Subtraction</button></td>
+        <td><button id="nhan()" onclick="nhan()">Multiplication</button></td>
+        <td><button id="chia()" onclick="chia()">Division</button></td>
+    </tr>
+</table>
+<p id="d"></p>
+<script>
+    function cong() {
+      let a =document.getElementById('a');
+      let b =document.getElementById('b');
+      let c = +a.value + +b.value ;
+      document.getElementById('d').innerHTML= 'Result Additon ' +c;
+    }
+    function tru() {
+        let a = document.getElementById('a');
+        let b =document.getElementById('b');
+        let e= +a.value - b.value ;
+        document.getElementById('d').innerHTML='Result Subtraction ' +e;
+    }
+    function nhan() {
+        let a=document.getElementById('a');
+        let b=document.getElementById('b');
+        let t = +a.value * +b.value
+        document.getElementById('d').innerHTML='Result Multiplication '+t;
+    }
+    function chia() {
+        let a=document.getElementById('a');
+        let b=document.getElementById('b');
+        let r = +a.value / +b.value;
+        document.getElementById('d').innerHTML='Result Division'+ r;
+    }
+</script>
 </body>
 </html>
