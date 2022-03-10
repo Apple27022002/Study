@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<!--<script>-->
+<!--    // bai tap dien ten-->
+<!--    // let tennguoidung;-->
+<!--    // tennguoidung = prompt('Nhập tên bạn')-->
+<!--    // document.write('Ten ban la: ' + tennguoidung)-->
+<!--    -->
+<!--</script>-->
+
+
+<!--    // bai 2-binh phuong-->
+
+<!--<script>-->
+<!--    let a ;-->
+<!--    a = +prompt('nhap so: ');-->
+<!--    let c ;-->
+<!--    c = a * a;-->
+<!--    document.write('so binh phuong la ' + c);-->
+<!--</script>-->
+
+<!-- bài 3-->
+<!--b1 lam bang voi 2 o input-->
+<!--b2 lam 1 button va 1 o hien thi ket qua-->
+<!--b3 lam funcion de thuc hien phep tinh va nhet ket qua vao o hien thi -->
+
+<!--<table>-->
+<!--    <tr>-->
+<!--        <td>-->
+<!--            <input type="text" id="a">-->
+<!--        </td>-->
+<!--        <td>-->
+<!--            <input type="text" id="b">-->
+<!--        </td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td >-->
+<!--             <button id="nhan()" onclick="nhan()">S</button>-->
+<!--        </td>-->
+<!--        <td id="e"></td>-->
+<!--    </tr>-->
+<!--</table>-->
+<!--<script>-->
+<!--    function nhan(){-->
+<!--        let a =document.getElementById('a');-->
+<!--        let b =document.getElementById('b');-->
+<!--        let c =+a.value * +b.value;-->
+<!--        document.getElementById('e').innerHTML='S=  '+c;-->
+<!--    }-->
+<!--</script>-->
+
+<!--Bai 4-->
+<!--// cau a//-->
+<body>
+<!--<input type="number" id="z">-->
+
+<!--<button onclick="tinh()">tinhtoan</button>-->
+<!--<p id="a"></p>-->
+<!--<p id="b"></p>-->
+<!--<script>-->
+<!--    function tinh() {-->
+<!--        let canh =+document.getElementById('z').value;-->
+<!--        let dientich = canh*canh;-->
+<!--        let chuvi = canh*4;-->
+<!--        document.getElementById('a').innerHTML = "chu vi hinh vuong la" + chuvi;-->
+<!--        document.getElementById('b').innerHTML = "dien tich hinh vuong la" + dientich;-->
+<!--    }-->
+<!--</script>-->
+
+<!--(b)-->
+<input type="text" id="a">
+<input type="text" id="b">
+
+<button onclick="tinh()">tinh toan</button>
+<p id="c"></p>
+<p id="d"></p>
+<script>
+    function tinh() {
+        let a =+document.getElementById('a').value;
+        let b =+document.getElementById('b').value;
+        let z =a ** 2;
+        let x =a**b;
+        document.getElementById('c').innerHTML="a^2="+z;
+        document.getElementById('d').innerHTML="a^b="+x;
+    }
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
