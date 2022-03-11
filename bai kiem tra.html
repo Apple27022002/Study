@@ -42,8 +42,8 @@
 <!--        <td >-->
 <!--             <button id="nhan()" onclick="nhan()">S</button>-->
 <!--        </td>-->
-<!--        <td id="e"></td>-->
 <!--    </tr>-->
+<!--<h1 id="e"></h1>-->
 <!--</table>-->
 <!--<script>-->
 <!--    function nhan(){-->
@@ -73,29 +73,52 @@
 <!--</script>-->
 
 <!--(b)-->
-<input type="text" id="a">
-<input type="text" id="b">
+<!--<input type="text" id="a">-->
+<!--<input type="text" id="b">-->
 
-<button onclick="tinh()">tinh toan</button>
-<p id="c"></p>
-<p id="d"></p>
-<script>
-    function tinh() {
-        let a =+document.getElementById('a').value;
-        let b =+document.getElementById('b').value;
-        let z =a ** 2;
-        let x =a**b;
-        document.getElementById('c').innerHTML="a^2="+z;
-        document.getElementById('d').innerHTML="a^b="+x;
-    }
+<!--<button onclick="tinh()">tinh toan</button>-->
+<!--<p id="c"></p>-->
+<!--<p id="d"></p>-->
+<!--<script>-->
+<!--    function tinh() {-->
+<!--        let a =+document.getElementById('a').value;-->
+<!--        let b =+document.getElementById('b').value;-->
+<!--        let z =a ** 2;-->
+<!--        let x =a**b;-->
+<!--        document.getElementById('c').innerHTML="a^2="+z;-->
+<!--        document.getElementById('d').innerHTML="a^b="+x;-->
+<!--    }-->
+<!--</script>-->
+
+<!--<bai 4 c>-->
+<!--<input type="number" id="a">-->
+<!--<input type="number" id="b">-->
+<!--<button onclick="tinh()">tinhtoan</button>-->
+<!--<p id="l"></p>-->
+<!--<script>-->
+<!--    function tinh() {-->
+<!--        let a = +document.getElementById('a').value;-->
+<!--        let b = +document.getElementById('b').value;-->
+<!--        let c = ( b-a ) / 2;-->
+<!--        let d = (a+b)* +c ;-->
+<!--        let y = +d /2;-->
+<!--        document.getElementById('l').innerHTML="tong tu a đen b là"+y;-->
+<!--    }-->
+
+
+<!--bai 4 tinh the ki-->
+<!--<input type="text" id="sta">-->
+<!--<button onclick="tinhTheKi()">tinh the ki</button>-->
+<!--<h1 id="kq"></h1>-->
+<!--<script>-->
+<!--    let c = document.getElementById("sta")-->
+<!--    let kq = document.getElementById("kq")-->
+<!--    function tinhTheKi() {-->
+<!--        let nam = c.value;-->
+<!--        let theKy= parseInt(nam / 100) + 1;-->
+<!--        kq.innerHTML = theKy-->
+<!--    }-->
 </script>
-
-
-
-
-
-
-
 
 </body>
 </html>
