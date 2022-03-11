@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7d8edf-d754-48b9-bb91-7cd861b007f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thuchanhnamnhuan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai kiem tra.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai kiem tra.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="262NS8JgRO8KCIfMnmLIvX1q5Tg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +60,7 @@
       <workItem from="1646789001201" duration="13528000" />
       <workItem from="1646881648466" duration="7905000" />
       <workItem from="1646901486921" duration="2417000" />
-      <workItem from="1646961719669" duration="2979000" />
+      <workItem from="1646961719669" duration="3831000" />
     </task>
     <servers />
   </component>
