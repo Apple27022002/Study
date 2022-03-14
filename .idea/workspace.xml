@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7d8edf-d754-48b9-bb91-7cd861b007f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bai kiem tra.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai kiem tra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap dieu kien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -60,7 +62,9 @@
       <workItem from="1646789001201" duration="13528000" />
       <workItem from="1646881648466" duration="7905000" />
       <workItem from="1646901486921" duration="2417000" />
-      <workItem from="1646961719669" duration="3831000" />
+      <workItem from="1646961719669" duration="4510000" />
+      <workItem from="1647220327907" duration="773000" />
+      <workItem from="1647253052860" duration="1292000" />
     </task>
     <servers />
   </component>
